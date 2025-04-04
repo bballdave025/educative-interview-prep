@@ -1,3 +1,45 @@
+#@brief   A .gitignore file for my educative-interview-prep
+#@file    .gitignore
+#@author  David BLACK  GitHub: @bballdave025
+#                 HuggingFace: @thebballdave025
+#@since   2025-04-04
+#
+#  -v- In case this file gets copied to another repo without changing -v-
+#+ -v- this stuff, there will be a reference to the previous repo     -v-
+#@orig_repo  educative-interview-prep
+#@project    Meta Interview on 2025-04-07, prep
+#@package    None for now.
+
+
+# Specific directories
+#**/__pycache__/
+#__pycache__/
+
+**/.ipynb_checkpoints/
+#.ipynb_checkpoints/
+
+# # Don't know what will be done with CSVs, yet
+# *.csv
+
+# None of those backup files
+*~
+
+# None of those Windows Office (at least MS Word) backup files
+$~*
+~$*
+~WRL*
+~*
+
+#*.info
+
+## LET THESE IN!!!
+!Job_Hunt_-_Meta_April_2025_LeetCode/
+
+
+
+#>>>>>>>>>>>> .gitignore template from GitHub   >>>>>>>>>>>>
+#>>>>>>>>>>>> for Python,  retrieved 2025-04-03 >>>>>>>>>>>>
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +214,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#>>>>>>>> ENDOF:  .gitignore template from GitHub   >>>>>>>>
